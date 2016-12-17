@@ -1,0 +1,15 @@
+.navigation-section {
+  display: flex;
+  background-color: $background-color-navigation;
+  padding: 5px;
+}
+
+.navigation-section__title {
+  display: flex;
+  justify-content: center;
+  background-color: pink;
+  align-items: center;
+  height: 35px;
+  width: 35px;
+  border-radius: 50%;
+}

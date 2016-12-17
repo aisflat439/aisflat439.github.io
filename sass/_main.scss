@@ -8,7 +8,6 @@ body {
   display: flex;
   flex: 1;
   background-color: $background-color;
-  padding: $padding-mobile;
   @media (min-width: $mq-tablet) {
     background-color: $background-color-tablet;
   }
@@ -17,5 +16,19 @@ body {
   }
   @media (min-width: $mq-desktop) {
     background-color: $background-color-desktop;
+  }
+}
+
+.body-container {
+  padding: $padding-body;
+  
+  @media (min-width: $mq-tablet) {
+    padding: $padding-body-tablet;
+  }
+  @media (min-width: $mq-laptop) {
+    padding: $padding-body-computer;
+  }
+  @media (min-width: $mq-desktop) {
+    padding: $padding-body-computer;
   }
 }
