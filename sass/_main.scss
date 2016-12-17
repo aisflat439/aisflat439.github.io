@@ -1,0 +1,21 @@
+body {
+  display: flex;
+  min-height: 100vh;
+  min-width: auto;
+}
+
+.main-container {
+  display: flex;
+  flex: 1;
+  background-color: $background-color;
+  padding: $padding-mobile;
+  @media (min-width: $mq-tablet) {
+    background-color: $background-color-tablet;
+  }
+  @media (min-width: $mq-laptop) {
+    background-color: $background-color-laptop;
+  }
+  @media (min-width: $mq-desktop) {
+    background-color: $background-color-desktop;
+  }
+}
