@@ -41,16 +41,38 @@
 }
 
 .navigation-section__links {
+  display: flex;
   padding-top: 10px;
   flex: 2;
+  li:hover {
+    transition: color 1000ms ease-out;
+    color: $font-hover-color;
+  }
   @media (min-width: $mq-laptop) {
     padding-top: 0px;
+    ul{
+      display: flex;
+      flex: 1;
+    }
+    li {
+      display: flex;
+      flex: 1;
+    }
+    a {
+      display: flex;
+      flex: 1;
+      align-items: center;
+      justify-content: center;
+    }
   }
   @media (min-width: $mq-desktop) {
     flex: 5;
   }
-  li:hover {
-    transition: color 1000ms ease-out;
-    color: $font-hover-color;
+}
+
+.navigation-section__links--name {
+  display: none;
+  @media (min-width: $mq-desktop) {
+    display: block;
   }
 }
