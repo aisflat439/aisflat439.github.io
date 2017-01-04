@@ -8,19 +8,21 @@
   }
   @media (min-width: $mq-laptop) {
     width: 100%;
-    nav {
-      flex: 1;
-      display: flex;
-      flex-direction: row;
-    }
+  }
+  @media (min-width: $mq-desktop) {
+    font-size: 12px;
   }
   nav {
+    display: flex;
     flex: 1;
+    flex-direction: column;
+    @media (min-width: $mq-desktop) {
+      flex-direction: row;
+    }
   }
 }
 
 .navigation-section__title {
-  flex: 3;
   display: flex;
   @media (min-width: $mq-desktop) {
     flex: 2;
@@ -43,16 +45,26 @@
 .navigation-section__links {
   display: flex;
   padding-top: 10px;
-  flex: 2;
+  flex-direction: row;
+  flex: .5;
   li:hover {
     transition: color 1000ms ease-out;
     color: $font-hover-color;
+  }
+  ul {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+  }
+  li{
+    display: flex;
   }
   @media (min-width: $mq-laptop) {
     padding-top: 0px;
     ul{
       display: flex;
       flex: 1;
+      flex-direction: row;
     }
     li {
       display: flex;
@@ -68,6 +80,9 @@
   @media (min-width: $mq-desktop) {
     flex: 5;
   }
+  a {
+    display: flex;
+  }
 }
 
 .navigation-section__links--name {
@@ -75,4 +90,16 @@
   @media (min-width: $mq-desktop) {
     display: block;
   }
+}
+
+.navigation-section__links--icon {
+  @media (min-width: $mq-desktop) {
+    display: block;
+  }
+}
+
+.navigation-section__links--link {
+  display: flex;
+  flex: 1;
+  background-color: orange;
 }
