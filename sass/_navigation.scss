@@ -9,9 +9,6 @@
   @media (min-width: $mq-laptop) {
     width: 100%;
   }
-  @media (min-width: $mq-desktop) {
-    font-size: 12px;
-  }
   nav {
     display: flex;
     flex: 1;
@@ -27,13 +24,16 @@
   @media (min-width: $mq-desktop) {
     flex: 2;
   }
+  @media (min-width: $mq-tablet) {
+    padding-bottom: $padding;
+  }
 }
 
 .navigation-section__title--display{
   display: flex;
   margin: auto;
   border-radius: 50%;
-  font-size: 25px;
+  font-size: $font-navigation-bold;
   font-weight: bold;
   justify-content: center;
   align-items: center;
@@ -60,7 +60,7 @@
     display: flex;
   }
   @media (min-width: $mq-laptop) {
-    padding-top: 0px;
+    padding-top: $zero;
     ul{
       display: flex;
       flex: 1;
@@ -83,18 +83,45 @@
   a {
     display: flex;
   }
+  @media (min-width: $mq-tablet) and (max-width: $mq-laptop) {
+    flex: .75;
+  a {
+    display: flex;
+    flex: 1;
+    align-items: right;
+  }
+}
 }
 
 .navigation-section__links--name {
   display: none;
+  @media (min-width: $mq-tablet) and (max-width: $mq-laptop) {
+    display: flex;
+    flex: 7;
+    font-size: $font-navigation-tablet;
+    padding-left: $padding-tablet;
+    align-items: flex-end;
+  }
+  @media (min-width: $mq-laptop) {
+    display: none;
+  }
   @media (min-width: $mq-desktop) {
     display: block;
+    font-size: $font-navigation-desktop;
   }
 }
 
 .navigation-section__links--icon {
+  @media (min-width: $mq-tablet) {
+    display: flex;
+    flex: 2;
+    padding-right: $padding-tablet;
+  }
   @media (min-width: $mq-desktop) {
     display: block;
+  }
+  @media (min-width: $mq-laptop) {
+    justify-content: center;
   }
 }
 
@@ -102,4 +129,7 @@
   display: flex;
   flex: 1;
   background-color: orange;
+  justify-content: center;
+  align-items: center;
+  font-size: $navigation-section__title;
 }
