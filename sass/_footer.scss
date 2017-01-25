@@ -1,0 +1,7 @@
+.footer-container {
+  display: none;
+  background-color: $background-color-footer;
+  @media (min-width: $mq-laptop) {
+    display: flex;
+  }
+}

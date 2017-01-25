@@ -22,6 +22,7 @@ body {
 }
 
 .body-container {
+  flex: 1;
   padding: $padding-body;
 
   @media (min-width: $mq-tablet) {
@@ -33,4 +34,13 @@ body {
   @media (min-width: $mq-desktop) {
     padding: $padding-body-computer;
   }
+}
+
+.popover {
+  display: none;
+  position: absolute;
+  z-index: 99;
+  background-color: white;
+  height: 175px;
+  width: 175px;
 }
