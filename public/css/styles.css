@@ -182,12 +182,8 @@ body {
 .body-section__sentence-container {
   display: flex;
   flex-direction: row;
-  width: 100%; }
-
-.body-section__intro div {
-  overflow: hidden;
-  white-space: nowrap;
-  animation: type 2s steps(100, end); }
+  width: 100%;
+  background-color: white; }
 
 .message-dot {
   margin: 10px 3px 1px 0px;
@@ -197,11 +193,6 @@ body {
   background-color: purple;
   animation: message-dot 1s; }
 
-@keyframes type {
-  from {
-    width: 0; }
-  to {
-    width: 100%; } }
 @keyframes message-dot {
   0% {
     background-color: red; }

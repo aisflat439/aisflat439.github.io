@@ -2,13 +2,7 @@
   display: flex;
   flex-direction: row;
   width: 100%;
-}
-
-.body-section__intro div {
-  overflow: hidden;
-  white-space: nowrap;
-  animation:
-    type 2s steps(100, end);
+  background-color: white;
 }
 
 .message-dot {
@@ -18,11 +12,6 @@
   border-radius: 50%;
   background-color: purple;
   animation: message-dot 1s;
-}
-
-@keyframes type {
-  from { width: 0 }
-  to { width: 100% }
 }
 
 @keyframes message-dot {
