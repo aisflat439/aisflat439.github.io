@@ -2,18 +2,22 @@
   display: flex;
   flex-direction: row;
   margin: 5px;
+  margin-top: 25px;
   position: absolute;
-  left: -1000px;
+  left: -3000px;
   animation: slide-left 0.5s forwards;
-  animation-delay: 2s;
-  &:nth-of-type(2){
+  animation-delay: 1s;
+  &:nth-of-type(3){
     animation-delay: 4s;
   }
-  &:nth-of-type(3){
-    animation-delay: 6s;
-  }
-  &:nth-of-type(4){
+  &:nth-of-type(5){
     animation-delay: 8s;
+  }
+  &:nth-of-type(7){
+    animation-delay: 12s;
+  }
+  &:nth-of-type(9){
+    animation-delay: 15s;
   }
 }
 
@@ -21,18 +25,22 @@
   display: flex;
   flex-direction: row;
   margin: 5px;
+  margin-top: 25px;
   position: absolute;
   right: -1000px;
   animation: slide-right 0.5s forwards;
-  animation-delay: 4s;
-  &:nth-of-type(2){
+  animation-delay: 2s;
+  &:nth-of-type(4){
     animation-delay: 6s;
   }
-  &:nth-of-type(3){
-    animation-delay: 8s;
-  }
-  &:nth-of-type(4){
+  &:nth-of-type(6){
     animation-delay: 10s;
+  }
+  &:nth-of-type(8){
+    animation-delay: 14s;
+  }
+  &:nth-of-type(10){
+    animation-delay: 17s;
   }
 }
 
