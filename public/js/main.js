@@ -14,6 +14,7 @@ function createMouseOver() {
   };
 }
 
+// logger builder
 function Logger() {
 
   this.line   = "------------------------------------\n";
