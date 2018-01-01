@@ -8,16 +8,20 @@ body {
 .main-container {
   display: flex;
   flex: 1;
-  background-color: $background-color;
+  background: $background-color;
+  background: linear-gradient($background-color 60%, pink 40%);
   @media (min-width: $mq-tablet) {
-    background-color: $background-color-tablet;
+    background: $background-color-tablet;
+    background: linear-gradient($background-color-tablet 60%, pink 40%);
   }
   @media (min-width: $mq-laptop) {
-    background-color: $background-color-laptop;
+    background: $background-color-laptop;
+    background: linear-gradient($background-color-laptop 60%, pink 40%);
     flex-direction: column;
   }
   @media (min-width: $mq-desktop) {
-    background-color: $background-color-desktop;
+    background: $background-color-desktop;
+    background: linear-gradient($background-color-desktop 60%, pink 40%);
   }
 }
 

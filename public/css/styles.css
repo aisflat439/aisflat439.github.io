@@ -20,17 +20,21 @@ body {
 .main-container {
   display: flex;
   flex: 1;
-  background-color: blue; }
+  background: blue;
+  background: linear-gradient(blue 60%, pink 40%); }
   @media (min-width: 768px) {
     .main-container {
-      background-color: lightblue; } }
+      background: lightblue;
+      background: linear-gradient(lightblue 60%, pink 40%); } }
   @media (min-width: 992px) {
     .main-container {
-      background-color: green;
+      background: green;
+      background: linear-gradient(green 60%, pink 40%);
       flex-direction: column; } }
   @media (min-width: 1200px) {
     .main-container {
-      background-color: lightgreen; } }
+      background: lightgreen;
+      background: linear-gradient(lightgreen 60%, pink 40%); } }
 
 .body-container {
   flex: 1;
