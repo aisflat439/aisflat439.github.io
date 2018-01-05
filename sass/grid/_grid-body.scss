@@ -1,5 +1,25 @@
 $body-color: blue;
+$grid-container-color: yellow;
+$item-color: red;
+
+.explainer-links {
+    display: block;
+}
 
 .grid-experiments-body {
     background-color: $body-color;   
+}
+
+.grid-container {
+    background-color: $grid-container-color;
+    display: grid;
+    grid-template-columns: 200px 300px 200px;
+    grid-column-gap: 15px;
+    grid-template-rows: 200px 200px;
+    grid-row-gap: 15px;
+}
+
+.item {
+    background-color: $item-color;
+    border: 1px solid white;
 }

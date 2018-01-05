@@ -256,8 +256,23 @@ body {
     background-color: blue; }
   100% {
     background-color: purple; } }
+.explainer-links {
+  display: block; }
+
 .grid-experiments-body {
   background-color: blue; }
+
+.grid-container {
+  background-color: yellow;
+  display: grid;
+  grid-template-columns: 200px 300px 200px;
+  grid-column-gap: 15px;
+  grid-template-rows: 200px 200px;
+  grid-row-gap: 15px; }
+
+.item {
+  background-color: red;
+  border: 1px solid white; }
 
 html {
   box-sizing: border-box; }
