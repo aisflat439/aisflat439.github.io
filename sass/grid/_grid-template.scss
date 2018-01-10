@@ -1,15 +1,13 @@
 .grid-template-container {
-    
+    background-color: paleturquoise;
+    display: grid;
+    grid-template-columns: 80px auto 280px;
+    grid-template-rows: 100px 100px 100px;
+    grid-row-gap: 10px;
+    grid-column-gap: 30px;
 }
 
-.grid-template-container__column {
-
-}
-
-.grid-template-container__row {
-
-}
-
-.grid-template-container__row--item {
-
+.grid-template-container--item {
+    background-color: palegoldenrod;
+    border: 2px solid plum
 }

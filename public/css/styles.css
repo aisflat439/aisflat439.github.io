@@ -274,6 +274,21 @@ body {
   background-color: red;
   border: 1px solid white; }
 
+.grid-template-container {
+  background-color: paleturquoise;
+  display: grid;
+  grid-template-columns: 80px auto 280px;
+  grid-template-rows: 100px 100px 100px;
+  grid-row-gap: 10px;
+  grid-column-gap: 30px; }
+
+.grid-template-container--item {
+  background-color: palegoldenrod;
+  border: 2px solid plum; }
+
+.grid-gap-container--item {
+  background-color: orange; }
+
 html {
   box-sizing: border-box; }
 
