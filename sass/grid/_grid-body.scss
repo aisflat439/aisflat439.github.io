@@ -2,8 +2,12 @@ $body-color: blue;
 $grid-container-color: yellow;
 $item-color: red;
 
-.explainer-links {
-    display: block;
+.explainer__links {
+    cursor: pointer;
+}
+
+.show {
+    display: grid;
 }
 
 .grid-experiments-body {
@@ -12,11 +16,15 @@ $item-color: red;
 
 .grid-container__spacing {
     background-color: $grid-container-color;
-    display: grid;
+    display: none;
     grid-template-columns: 200px 300px 200px;
     grid-column-gap: 15px;
     grid-template-rows: 200px 200px;
     grid-row-gap: 15px;
+ 
+    &.show {
+        display: grid;
+    }
 }
 
 .grid-container__spacing--item {

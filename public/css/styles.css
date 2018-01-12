@@ -256,19 +256,24 @@ body {
     background-color: blue; }
   100% {
     background-color: purple; } }
-.explainer-links {
-  display: block; }
+.explainer__links {
+  cursor: pointer; }
+
+.show {
+  display: grid; }
 
 .grid-experiments-body {
   background-color: blue; }
 
 .grid-container__spacing {
   background-color: yellow;
-  display: grid;
+  display: none;
   grid-template-columns: 200px 300px 200px;
   grid-column-gap: 15px;
   grid-template-rows: 200px 200px;
   grid-row-gap: 15px; }
+  .grid-container__spacing.show {
+    display: grid; }
 
 .grid-container__spacing--item {
   background-color: red;
@@ -276,11 +281,13 @@ body {
 
 .grid-template-container {
   background-color: paleturquoise;
-  display: grid;
+  display: none;
   grid-template-columns: 80px auto 280px;
   grid-template-rows: 100px 100px 100px;
   grid-row-gap: 10px;
   grid-column-gap: 30px; }
+  .grid-template-container.show {
+    display: grid; }
 
 .grid-template-container--item {
   background-color: palegoldenrod;
@@ -290,7 +297,7 @@ body {
   background-color: orange; }
 
 .grid-template-area-container {
-  display: grid;
+  display: none;
   justify-content: center;
   background-color: lightseagreen;
   grid-template-columns: 200px 100px 200px 200px;
@@ -298,6 +305,8 @@ body {
   grid-template-rows: 75px 75px 75px;
   grid-row-gap: 10px;
   grid-template-areas: "header header header header" "body body . sidebar"  "footer footer footer footer"; }
+  .grid-template-area-container.show {
+    display: grid; }
 
 .grid-template-area-container--item-one {
   grid-area: header;

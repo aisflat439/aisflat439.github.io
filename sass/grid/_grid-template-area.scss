@@ -1,5 +1,5 @@
 .grid-template-area-container {
-    display: grid;
+    display: none;
     justify-content: center;
     background-color: lightseagreen;
     grid-template-columns: 200px 100px 200px 200px;
@@ -10,6 +10,9 @@
         "header header header header"
         "body body . sidebar" 
         "footer footer footer footer";
+    &.show {
+        display: grid;
+    }
 }
 
 .grid-template-area-container--item-one {

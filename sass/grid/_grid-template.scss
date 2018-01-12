@@ -1,10 +1,13 @@
 .grid-template-container {
     background-color: paleturquoise;
-    display: grid;
+    display: none;
     grid-template-columns: 80px auto 280px;
     grid-template-rows: 100px 100px 100px;
     grid-row-gap: 10px;
     grid-column-gap: 30px;
+    &.show {
+        display: grid;
+    }
 }
 
 .grid-template-container--item {
