@@ -328,6 +328,16 @@ body {
   background-color: lightgreen;
   border: 2px solid red; }
 
+.rule-explanation {
+  padding: 3% 10%;
+  background-color: gray;
+  color: white; }
+
+.rule-explanation__content {
+  display: none; }
+  .rule-explanation__content.visible {
+    display: block; }
+
 html {
   box-sizing: border-box; }
 

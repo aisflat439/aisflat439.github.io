@@ -1,0 +1,13 @@
+.rule-explanation {
+    padding: 3% 10%;
+    background-color: gray;
+    color: white;
+}
+
+.rule-explanation__content {
+    display: none;
+
+    &.visible {
+        display: block;
+    }
+}
