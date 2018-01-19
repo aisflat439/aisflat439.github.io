@@ -6,12 +6,12 @@ window.onload = function () {
         var useExplanations = document.querySelectorAll('.rule-explanation__content');
 
         sectionElements.forEach(item => {
-            item.classList.toggle('show');
+            item.classList.remove('show');
         })
         sectionElements[index].className += ' show';
 
         useExplanations.forEach(item => {
-            item.classList.toggle('visible');
+            item.classList.remove('visible');
         });
         useExplanations[index].className += ' visible'; 
     }
