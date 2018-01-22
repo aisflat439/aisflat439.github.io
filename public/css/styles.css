@@ -293,6 +293,11 @@ body {
   background-color: palegoldenrod;
   border: 2px solid plum; }
 
+.grid-gap-container {
+  display: none; }
+  .grid-gap-container.show {
+    display: grid; }
+
 .grid-gap-container--item {
   background-color: orange; }
 
@@ -302,7 +307,7 @@ body {
   background-color: lightseagreen;
   grid-template-columns: 200px 100px 200px 200px;
   grid-column-gap: 20px;
-  grid-template-rows: auto 75px 75px;
+  grid-template-rows: 175px auto 75px;
   grid-row-gap: 10px;
   grid-template-areas: "header header header header" "body body . sidebar"  "footer footer footer footer"; }
   .grid-template-area-container.show {
@@ -337,6 +342,12 @@ body {
   display: none; }
   .rule-explanation__content.visible {
     display: block; }
+
+.explainer__links {
+  background-color: lightblue;
+  border: 2px solid navajowhite;
+  padding: 10px;
+  margin: 15px; }
 
 html {
   box-sizing: border-box; }

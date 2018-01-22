@@ -1,5 +1,9 @@
 .grid-gap-container {
-    
+    display: none;
+
+    &.show {
+        display: grid;
+    }
 }
 
 .grid-gap-container__column {
