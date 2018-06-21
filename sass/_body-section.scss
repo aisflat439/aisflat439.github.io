@@ -84,3 +84,47 @@
   50% { background-color: blue }
   100% { background-color: purple }
 }
+
+.main-container {
+  display: flex;
+  flex: 1;
+  background: $background-color;
+  background: linear-gradient($background-color 60%, pink 40%);
+  @media (min-width: $mq-tablet) {
+    background: $background-color-tablet;
+    background: linear-gradient($background-color-tablet 60%, pink 40%);
+  }
+  @media (min-width: $mq-laptop) {
+    background: $background-color-laptop;
+    background: linear-gradient($background-color-laptop 60%, pink 40%);
+    flex-direction: column;
+  }
+  @media (min-width: $mq-desktop) {
+    background: $background-color-desktop;
+    background: linear-gradient($background-color-desktop 60%, pink 40%);
+  }
+}
+
+.body-container {
+  flex: 1;
+  padding: $padding-body;
+
+  @media (min-width: $mq-tablet) {
+    padding: $padding-body-tablet;
+  }
+  @media (min-width: $mq-laptop) {
+    padding: $padding-body-computer;
+  }
+  @media (min-width: $mq-desktop) {
+    padding: $padding-body-computer;
+  }
+}
+
+.popover {
+  display: none;
+  position: absolute;
+  z-index: 99;
+  background-color: white;
+  height: 175px;
+  width: 175px;
+}

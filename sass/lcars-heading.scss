@@ -1,0 +1,22 @@
+.lcars-heading {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  background-color: $boldly-lcars-one;
+  border-radius: 50px;
+  padding-right: 50px;
+  text-align: right;
+}
+
+.lcars-heading__main {
+  font-size: 22px;
+  padding-right: 10px;
+  text-transform: uppercase;
+}
+
+.lcars-heading__knockout {
+  padding: 0 10px;
+  font-size: 35px;
+  background-color: $boldly-black;
+  color: $boldly-lcars-five;
+}

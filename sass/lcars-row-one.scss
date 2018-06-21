@@ -1,0 +1,63 @@
+.lcars-chunk {
+  background-color: $boldly-lcars-five;
+  height: 135px;
+  width: 30%;
+}
+
+.lcars-chunk__text {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  padding: 0 5px;
+  text-decoration: none;
+  color: $boldly-black;
+  text-transform: uppercase;
+  font-weight: 700;
+  text-align: right;
+  height: 100%;
+  width: 100%;
+}
+
+.lcars-row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.lcars-group {
+  width: 40%
+}
+
+.lcars-group__set {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+$COLORS: $boldly-lcars-two,$boldly-lcars-three,$boldly-lcars-four,$boldly-lcars-five,$boldly-lcars-six,$boldly-lcars-seven,$boldly-lcars-eight;
+
+.lcars-button {
+  min-width: 40%;
+  margin: 5px;
+  height: 35px;
+  display: flex;
+  align-items: center;
+}
+
+@for $i from 1 through length($COLORS) {
+  @if $i % 2 == 0 {
+    .lcars-button:nth-of-type(#{length($COLORS)}n+#{$i}) {
+      background-color: nth($COLORS, $i);
+      order: $i;
+      padding-left: 15px;
+      border-radius: 0 50px 50px 0;
+    }
+  } @else {
+    .lcars-button:nth-of-type(#{length($COLORS)}n+#{$i}) {
+      background-color: nth($COLORS, $i);
+      order: $i;
+      justify-content: flex-end;
+      padding-right: 15px;
+      border-radius: 50px 0 0 50px;
+    }
+  }
+}

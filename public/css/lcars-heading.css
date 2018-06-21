@@ -1,0 +1,71 @@
+/*
+Error: Undefined variable: "$boldly-lcars-one".
+        on line 5 of sass/lcars-heading.scss
+
+1: .lcars-heading {
+2:   display: flex;
+3:   justify-content: flex-end;
+4:   align-items: center;
+5:   background-color: $boldly-lcars-one;
+6:   border-radius: 50px;
+7:   padding-right: 50px;
+8:   text-align: right;
+9: }
+10: 
+
+Backtrace:
+sass/lcars-heading.scss:5
+/home/aisflat439/.rvm/gems/ruby-2.3.3/gems/sass-3.5.6/lib/sass/script/tree/variable.rb:49:in `_perform'
+/home/aisflat439/.rvm/gems/ruby-2.3.3/gems/sass-3.5.6/lib/sass/script/tree/node.rb:50:in `perform'
+/home/aisflat439/.rvm/gems/ruby-2.3.3/gems/sass-3.5.6/lib/sass/tree/visitors/perform.rb:402:in `visit_prop'
+/home/aisflat439/.rvm/gems/ruby-2.3.3/gems/sass-3.5.6/lib/sass/tree/visitors/base.rb:36:in `visit'
+/home/aisflat439/.rvm/gems/ruby-2.3.3/gems/sass-3.5.6/lib/sass/tree/visitors/perform.rb:162:in `block in visit'
+/home/aisflat439/.rvm/gems/ruby-2.3.3/gems/sass-3.5.6/lib/sass/stack.rb:79:in `block in with_base'
+/home/aisflat439/.rvm/gems/ruby-2.3.3/gems/sass-3.5.6/lib/sass/stack.rb:135:in `with_frame'
+/home/aisflat439/.rvm/gems/ruby-2.3.3/gems/sass-3.5.6/lib/sass/stack.rb:79:in `with_base'
+/home/aisflat439/.rvm/gems/ruby-2.3.3/gems/sass-3.5.6/lib/sass/tree/visitors/perform.rb:162:in `visit'
+/home/aisflat439/.rvm/gems/ruby-2.3.3/gems/sass-3.5.6/lib/sass/tree/visitors/perform.rb:444:in `block (2 levels) in visit_rule'
+/home/aisflat439/.rvm/gems/ruby-2.3.3/gems/sass-3.5.6/lib/sass/tree/visitors/perform.rb:444:in `map'
+/home/aisflat439/.rvm/gems/ruby-2.3.3/gems/sass-3.5.6/lib/sass/tree/visitors/perform.rb:444:in `block in visit_rule'
+/home/aisflat439/.rvm/gems/ruby-2.3.3/gems/sass-3.5.6/lib/sass/tree/visitors/perform.rb:183:in `with_environment'
+/home/aisflat439/.rvm/gems/ruby-2.3.3/gems/sass-3.5.6/lib/sass/tree/visitors/perform.rb:442:in `visit_rule'
+/home/aisflat439/.rvm/gems/ruby-2.3.3/gems/sass-3.5.6/lib/sass/tree/visitors/base.rb:36:in `visit'
+/home/aisflat439/.rvm/gems/ruby-2.3.3/gems/sass-3.5.6/lib/sass/tree/visitors/perform.rb:162:in `block in visit'
+/home/aisflat439/.rvm/gems/ruby-2.3.3/gems/sass-3.5.6/lib/sass/stack.rb:79:in `block in with_base'
+/home/aisflat439/.rvm/gems/ruby-2.3.3/gems/sass-3.5.6/lib/sass/stack.rb:135:in `with_frame'
+/home/aisflat439/.rvm/gems/ruby-2.3.3/gems/sass-3.5.6/lib/sass/stack.rb:79:in `with_base'
+/home/aisflat439/.rvm/gems/ruby-2.3.3/gems/sass-3.5.6/lib/sass/tree/visitors/perform.rb:162:in `visit'
+/home/aisflat439/.rvm/gems/ruby-2.3.3/gems/sass-3.5.6/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
+/home/aisflat439/.rvm/gems/ruby-2.3.3/gems/sass-3.5.6/lib/sass/tree/visitors/base.rb:52:in `map'
+/home/aisflat439/.rvm/gems/ruby-2.3.3/gems/sass-3.5.6/lib/sass/tree/visitors/base.rb:52:in `visit_children'
+/home/aisflat439/.rvm/gems/ruby-2.3.3/gems/sass-3.5.6/lib/sass/tree/visitors/perform.rb:171:in `block in visit_children'
+/home/aisflat439/.rvm/gems/ruby-2.3.3/gems/sass-3.5.6/lib/sass/tree/visitors/perform.rb:183:in `with_environment'
+/home/aisflat439/.rvm/gems/ruby-2.3.3/gems/sass-3.5.6/lib/sass/tree/visitors/perform.rb:170:in `visit_children'
+/home/aisflat439/.rvm/gems/ruby-2.3.3/gems/sass-3.5.6/lib/sass/tree/visitors/base.rb:36:in `block in visit'
+/home/aisflat439/.rvm/gems/ruby-2.3.3/gems/sass-3.5.6/lib/sass/tree/visitors/perform.rb:190:in `visit_root'
+/home/aisflat439/.rvm/gems/ruby-2.3.3/gems/sass-3.5.6/lib/sass/tree/visitors/base.rb:36:in `visit'
+/home/aisflat439/.rvm/gems/ruby-2.3.3/gems/sass-3.5.6/lib/sass/tree/visitors/perform.rb:161:in `visit'
+/home/aisflat439/.rvm/gems/ruby-2.3.3/gems/sass-3.5.6/lib/sass/tree/visitors/perform.rb:10:in `visit'
+/home/aisflat439/.rvm/gems/ruby-2.3.3/gems/sass-3.5.6/lib/sass/tree/root_node.rb:36:in `css_tree'
+/home/aisflat439/.rvm/gems/ruby-2.3.3/gems/sass-3.5.6/lib/sass/tree/root_node.rb:29:in `render_with_sourcemap'
+/home/aisflat439/.rvm/gems/ruby-2.3.3/gems/sass-3.5.6/lib/sass/engine.rb:389:in `_render_with_sourcemap'
+/home/aisflat439/.rvm/gems/ruby-2.3.3/gems/sass-3.5.6/lib/sass/engine.rb:307:in `render_with_sourcemap'
+/home/aisflat439/.rvm/gems/ruby-2.3.3/gems/sass-3.5.6/lib/sass/plugin/compiler.rb:462:in `update_stylesheet'
+/home/aisflat439/.rvm/gems/ruby-2.3.3/gems/sass-3.5.6/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
+/home/aisflat439/.rvm/gems/ruby-2.3.3/gems/sass-3.5.6/lib/sass/plugin/compiler.rb:209:in `each'
+/home/aisflat439/.rvm/gems/ruby-2.3.3/gems/sass-3.5.6/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
+/home/aisflat439/.rvm/gems/ruby-2.3.3/gems/sass-3.5.6/lib/sass/plugin/compiler.rb:443:in `on_file_changed'
+/home/aisflat439/.rvm/gems/ruby-2.3.3/gems/sass-3.5.6/lib/sass/plugin/compiler.rb:320:in `block in watch'
+/home/aisflat439/.rvm/gems/ruby-2.3.3/gems/sass-listen-4.0.0/lib/sass-listen/event/config.rb:23:in `call'
+/home/aisflat439/.rvm/gems/ruby-2.3.3/gems/sass-listen-4.0.0/lib/sass-listen/event/processor.rb:115:in `_process_changes'
+/home/aisflat439/.rvm/gems/ruby-2.3.3/gems/sass-listen-4.0.0/lib/sass-listen/event/processor.rb:19:in `block in loop_for'
+/home/aisflat439/.rvm/gems/ruby-2.3.3/gems/sass-listen-4.0.0/lib/sass-listen/event/processor.rb:15:in `loop'
+/home/aisflat439/.rvm/gems/ruby-2.3.3/gems/sass-listen-4.0.0/lib/sass-listen/event/processor.rb:15:in `loop_for'
+/home/aisflat439/.rvm/gems/ruby-2.3.3/gems/sass-listen-4.0.0/lib/sass-listen/event/loop.rb:84:in `_wait_for_changes'
+/home/aisflat439/.rvm/gems/ruby-2.3.3/gems/sass-listen-4.0.0/lib/sass-listen/event/loop.rb:42:in `block in setup'
+/home/aisflat439/.rvm/gems/ruby-2.3.3/gems/sass-listen-4.0.0/lib/sass-listen/internals/thread_pool.rb:6:in `block in add'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Undefined variable: \"$boldly-lcars-one\".\A         on line 5 of sass/lcars-heading.scss\A \A 1: .lcars-heading {\A 2:   display: flex;\A 3:   justify-content: flex-end;\A 4:   align-items: center;\A 5:   background-color: $boldly-lcars-one;\A 6:   border-radius: 50px;\A 7:   padding-right: 50px;\A 8:   text-align: right;\A 9: }\A 10: "; }

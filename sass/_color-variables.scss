@@ -1,3 +1,33 @@
+$boldly-green :rgba(0,184,68,1);
+$boldly-red :rgba(233,19,19,1);
+$boldly-blue :rgba(0,153,246,1);
+$boldly-yellow :rgba(242,195,0,1);
+$boldly-black :rgba(0,0,0,1);
+$boldly-orange :rgba(242,95,0,1);
+$boldly-white :rgba(255,255,255,1);
+
+$boldly-lcars-one :rgb(210,128,204);
+$boldly-lcars-two :rgb(207,90,99);
+$boldly-lcars-three :rgb(173,98,255);
+$boldly-lcars-four :rgb(210,65,150);
+$boldly-lcars-five :rgb(255,155,93);
+$boldly-lcars-six :rgb(252,211,147);
+$boldly-lcars-seven :rgb(253,161,0);
+$boldly-lcars-eight :rgb(161,132,206);
+
+
+$background-gradient: linear-gradient(75deg, 
+    $boldly-red, 
+    $boldly-red 15%, 
+    $boldly-red 20%, 
+    $boldly-blue 20%, 
+    $boldly-blue 27%, 
+    $boldly-blue 80%, 
+    $boldly-blue 81%,
+    $boldly-green 81%, 
+    $boldly-green 89%, 
+    $boldly-orange 89%);
+
 $background-color: blue;
 $background-color-tablet: lightblue;
 $background-color-laptop: green;
