@@ -5,17 +5,9 @@
 }
 
 .lcars-chunk__text {
-  display: flex;
-  justify-content: flex-end;
-  align-items: flex-end;
+  @include position-bottom-right;
+  @include main-font;
   padding: 0 5px;
-  text-decoration: none;
-  color: $boldly-black;
-  text-transform: uppercase;
-  font-weight: 700;
-  text-align: right;
-  height: 100%;
-  width: 100%;
 }
 
 .lcars-row {
@@ -41,6 +33,7 @@ $COLORS: $boldly-lcars-two,$boldly-lcars-three,$boldly-lcars-four,$boldly-lcars-
   height: 35px;
   display: flex;
   align-items: center;
+  cursor: pointer;
 }
 
 @for $i from 1 through length($COLORS) {

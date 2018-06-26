@@ -1,0 +1,12 @@
+@mixin main-font {
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+@mixin position-bottom-right {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}

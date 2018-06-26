@@ -3,66 +3,74 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <script src="public/js/main.js" type="text/javascript"></script>
+  <script src="public/js/index.js" type="text/javascript"></script>
   <link rel="stylesheet" href="public/css/styles.css" media="screen" title="no title">
   <title>Devin Fitzsimons</title>
 </head>
 <body>
-  <div class="container">
-    <div class="container-heading">
-      <h1>Devin Fitzsimons</h1>
-      <p>I've been working through project Euler problems. Here are some of my solutions.</p>
+  <div class="body">
+    <div class="container">
+      <div class="container-heading">
+        <h1>Devin Fitzsimons</h1>
+        <p>I've been working through project Euler problems. Here are some of my solutions.</p>
+      </div>
+      <div class="container-view">
+          <div class="lcars-heading">
+            <p class="lcars-heading__main">Project Euler</p><p class="lcars-heading__knockout">6.18.2018-problems</p>
+          </div>
+          <div class="lcars-row">
+            <div class="lcars-chunk">
+                <a class="lcars-chunk__text" href="https://projecteuler.net/" target="_blank">
+                  learn more
+                </a>
+            </div>
+            <div class="lcars-group">
+              <div class="lcars-group__set">
+                <div class="lcars-button" data-toggle="modal" data-target="problem-one">Problem 1</div>
+                <div class="lcars-button" data-toggle="modal" data-target="">Problem 2</div>
+                <div class="lcars-button" data-toggle="modal" data-target="">Problem 3</div>
+                <div class="lcars-button" data-toggle="modal" data-target="">Problem 4</div>
+                <div class="lcars-button" data-toggle="modal" data-target="">Problem 5</div>
+                <div class="lcars-button" data-toggle="modal" data-target="">Problem 6</div>
+              </div>
+            </div>
+          </div>
+          <div class="lcars-row__medium">
+            <div class="lcars-row-column">
+              <div class="lcars-rect">Problem 7</div>
+              <div class="lcars-rect">Problem 8</div>
+              <div class="lcars-rect">Problem 9</div>
+              <div class="lcars-rect">Problem 10</div>
+            </div>
+            <div class="lcars-row-column">
+              <div class="lcars-rect">Problem 11</div>
+              <div class="lcars-rect">Problem 12</div>
+              <div class="lcars-rect">Problem 13</div>
+              <div class="lcars-rect">Problem 14</div>
+            </div>
+            <div class="lcars-row-column">
+              <div class="lcars-row-column__full">Problem 15</div>
+            </div>
+            <div class="lcars-row-column">
+              <div class="lcars-row-column__half">
+                <div class="lcars-rect__tall">Problem 16</div>
+                <p class="lcars-rect__text">example</p>
+                <p class="lcars-rect__text">example</p>
+                <p class="lcars-rect__text">example</p>
+                <div class="lcars-rect__tall">Problem 17</div>  
+              </div>
+            </div>
+          </div>
+          <div class="lcars-row_curve">
+            <p class="lcars-rect__text">example</p>
+          </div>
+      </div>
     </div>
-    <div class="container-view">
-        <div class="lcars-heading">
-          <p class="lcars-heading__main">Project Euler</p><p class="lcars-heading__knockout">6.18.2018-problems</p>
-        </div>
-        <div class="lcars-row">
-          <div class="lcars-chunk">
-              <a class="lcars-chunk__text" href="https://projecteuler.net/" target="_blank">
-                learn more
-              </a>
-          </div>
-          <div class="lcars-group">
-            <div class="lcars-group__set">
-              <div class="lcars-button">Problem 1</div>
-              <div class="lcars-button">Problem 2</div>
-              <div class="lcars-button">Problem 3</div>
-              <div class="lcars-button">Problem 4</div>
-              <div class="lcars-button">Problem 5</div>
-              <div class="lcars-button">Problem 6</div>
-            </div>
-          </div>
-        </div>
-        <div class="lcars-row__medium">
-          <div class="lcars-row-column">
-            <div class="lcars-rect">Problem 7</div>
-            <div class="lcars-rect">Problem 8</div>
-            <div class="lcars-rect">Problem 9</div>
-            <div class="lcars-rect">Problem 10</div>
-          </div>
-          <div class="lcars-row-column">
-            <div class="lcars-rect">Problem 11</div>
-            <div class="lcars-rect">Problem 12</div>
-            <div class="lcars-rect">Problem 13</div>
-            <div class="lcars-rect">Problem 14</div>
-          </div>
-          <div class="lcars-row-column">
-            <div class="lcars-row-column__full">Problem 15</div>
-          </div>
-          <div class="lcars-row-column">
-            <div class="lcars-row-column__half">
-              <div class="lcars-rect__tall">Problem 16</div>
-              <p class="lcars-rect__text">example</p>
-              <p class="lcars-rect__text">example</p>
-              <p class="lcars-rect__text">example</p>
-              <div class="lcars-rect__tall">Problem 17</div>  
-            </div>
-          </div>
-        </div>
-        <div class="lcars-row_curve">
-          <p class="lcars-rect__text">example</p>
-        </div>
+  </div>
+
+  <div class="lcars-modal" id="problem-one">
+    <div class="pset-canvas">
+      
     </div>
   </div>
 </body>

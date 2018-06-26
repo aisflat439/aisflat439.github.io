@@ -1,5 +1,6 @@
 @import "size-variables";
 @import "color-variables";
+@import "extends";
 @import "resets";
 @import "main";
 @import "navigation";
@@ -14,6 +15,7 @@
 
 @import "lcars-heading";
 @import "lcars-row-one";
+@import "lcars-modal";
 
 html {
   box-sizing: border-box;
